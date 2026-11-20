@@ -1,0 +1,35 @@
+{
+  "model": "skt/kogpt2-base-v2",
+  "lang": "ko",
+  "split": "question",
+  "n_train": 311,
+  "n_val": 39,
+  "n_test": 39,
+  "base_test_loss": 4.141403082109775,
+  "final_test_loss": 2.1277612423281416,
+  "base_f1": 0.011088157917179485,
+  "echo_f1": 0.260942179546357,
+  "final_f1": 0.23142157211306624,
+  "final_f1_rep115": 0.18546721217780168,
+  "num_recall": 0.21428571428571427,
+  "num_recall_n": 7,
+  "eval_losses": [
+    2.9791510105133057,
+    2.4657626152038574,
+    2.316100597381592,
+    2.2995386123657227
+  ],
+  "args": {
+    "epochs": 4.0,
+    "lr": 5e-05,
+    "bs": 4,
+    "grad_accum": 4,
+    "seed": 42,
+    "no_repeat": 3,
+    "num_beams": 1,
+    "optim": "adafactor",
+    "grad_ckpt": false,
+    "peak_gb": 1.94
+  },
+  "pretrain": null
+}

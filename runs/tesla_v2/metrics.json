@@ -1,0 +1,33 @@
+{
+  "model": "skt/kogpt2-base-v2",
+  "lang": "ko",
+  "split": "group",
+  "n_train": 3922,
+  "n_val": 509,
+  "n_test": 433,
+  "base_test_loss": 4.387436288399935,
+  "final_test_loss": 2.1417536814944733,
+  "base_f1": 0.000677390219478055,
+  "echo_f1": 0.2976573038769713,
+  "final_f1": 0.25583296900045704,
+  "final_f1_rep115": 0.22067263510363225,
+  "num_recall": 0.14285714285714285,
+  "num_recall_n": 7,
+  "eval_losses": [
+    2.323228359222412,
+    2.139641046524048
+  ],
+  "args": {
+    "epochs": 2.0,
+    "lr": 5e-05,
+    "bs": 4,
+    "grad_accum": 4,
+    "seed": 42,
+    "no_repeat": 3,
+    "num_beams": 1,
+    "optim": "adafactor",
+    "grad_ckpt": false,
+    "peak_gb": 2.1
+  },
+  "pretrain": null
+}

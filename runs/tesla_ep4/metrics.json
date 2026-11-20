@@ -1,0 +1,36 @@
+{
+  "model": "skt/kogpt2-base-v2",
+  "lang": "ko",
+  "split": "group",
+  "n_train": 4587,
+  "n_val": 516,
+  "n_test": 597,
+  "base_test_loss": 4.4623,
+  "final_test_loss": 1.9282496303189443,
+  "base_f1": 0.004,
+  "echo_f1": 0.238,
+  "final_f1": 0.2242085897881637,
+  "final_f1_rep115": 0.22977110589141814,
+  "num_recall": 0.1,
+  "num_recall_n": 10,
+  "eval_losses": [
+    2.3206,
+    1.9862,
+    1.8452,
+    1.8344
+  ],
+  "args": {
+    "epochs": 4,
+    "lr": 5e-05,
+    "bs": 4,
+    "grad_accum": 4,
+    "seed": 42,
+    "no_repeat": 3,
+    "num_beams": 1,
+    "optim": "adafactor",
+    "grad_ckpt": false,
+    "peak_gb": 2.01
+  },
+  "pretrain": null,
+  "recovered_from": "runs/tesla_ep4/ckpt/checkpoint-1148"
+}
